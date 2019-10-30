@@ -1,0 +1,49 @@
+img {border-color: hotpink;
+    display: block;
+    height: auto;
+}
+
+h2 {color: hotpink; }
+
+.text {word-wrap: break-word;
+width:300px;
+margin:auto;
+border-color: hotpink;
+border-width:3px;
+border-style:dotted;
+padding-left: 10px;
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;}
+
+.classs {text-align: center;}
+
+.container {position:relative;
+width: 210px;
+margin: auto;}
+
+.overlay {position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+height: 210px;
+width: 210px;
+opacity: 0;
+transition: .5 s ease;
+background-color: hotpink;}
+
+.container:hover .overlay {opacity: 0.8;
+}
+
+.textt {
+        color: white;
+        font-size: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+        }
